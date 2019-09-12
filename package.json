@@ -1,0 +1,21 @@
+{
+    "name": "note-di-rilascio-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "tsc": "tsc",
+        "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
+        "prod": "tsc && node ./build/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ts-node": "^8.3.0",
+        "ts-node-dev": "^1.0.0-pre.40",
+        "typescript": "^3.6.3"
+    },
+    "devDependencies": {
+        "@types/node": "^12.7.5"
+    }
+}
